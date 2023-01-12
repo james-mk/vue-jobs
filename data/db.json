@@ -1,0 +1,23 @@
+{
+    "jobs": [{
+        "title": "Web Developer",
+        "id": 1,
+        "location": "Nairobi",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel ullam ab voluptatibus explicabo voluptatum deserunt distinctio vitae pariatur maiores iure reprehenderit ipsa saepe in fuga, voluptatem accusamus neque quam ad impedit sapiente numquam quo nihil laudantium? Porro reiciendis cumque, rem iure, ex error illum omnis exercitationem necessitatibus id vel quisquam, ea aspernatur. Quos quia reprehenderit vel unde, officiis natus aut magni perferendis quasi non repellat eligendi repellendus eaque ad ipsam facilis corrupti facere dolorum architecto corporis dolorem? Minima, saepe, ut fugiat nisi aut magnam, ipsum praesentium consequatur eos pariatur incidunt sint eligendi illo tempora cumque libero excepturi id porro. Est."
+    }, {
+        "title": "Graphic Designer",
+        "id": 2,
+        "location": "Mombasa",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel ullam ab voluptatibus explicabo voluptatum deserunt distinctio vitae pariatur maiores iure reprehenderit ipsa saepe in fuga, voluptatem accusamus neque quam ad impedit sapiente numquam quo nihil laudantium? Porro reiciendis cumque, rem iure, ex error illum omnis exercitationem necessitatibus id vel quisquam, ea aspernatur. Quos quia reprehenderit vel unde, officiis natus aut magni perferendis quasi non repellat eligendi repellendus eaque ad ipsam facilis corrupti facere dolorum architecto corporis dolorem? Minima, saepe, ut fugiat nisi aut magnam, ipsum praesentium consequatur eos pariatur incidunt sint eligendi illo tempora cumque libero excepturi id porro. Est. "
+    }, {
+        "title": "Videographer",
+        "id": 3,
+        "location": "Nakuru",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel ullam ab voluptatibus explicabo voluptatum deserunt distinctio vitae pariatur maiores iure reprehenderit ipsa saepe in fuga, voluptatem accusamus neque quam ad impedit sapiente numquam quo nihil laudantium? Porro reiciendis cumque, rem iure, ex error illum omnis exercitationem necessitatibus id vel quisquam, ea aspernatur. Quos quia reprehenderit vel unde, officiis natus aut magni perferendis quasi non repellat eligendi repellendus eaque ad ipsam facilis corrupti facere dolorum architecto corporis dolorem? Minima, saepe, ut fugiat nisi aut magnam, ipsum praesentium consequatur eos pariatur incidunt sint eligendi illo tempora cumque libero excepturi id porro. Est. l"
+    }, {
+        "title": "Social Media Manager",
+        "id": 4,
+        "location": "Eldoret",
+        "details": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel ullam ab voluptatibus explicabo voluptatum deserunt distinctio vitae pariatur maiores iure reprehenderit ipsa saepe in fuga, voluptatem accusamus neque quam ad impedit sapiente numquam quo nihil laudantium? Porro reiciendis cumque, rem iure, ex error illum omnis exercitationem necessitatibus id vel quisquam, ea aspernatur. Quos quia reprehenderit vel unde, officiis natus aut magni perferendis quasi non repellat eligendi repellendus eaque ad ipsam facilis corrupti facere dolorum architecto corporis dolorem? Minima, saepe, ut fugiat nisi aut magnam, ipsum praesentium consequatur eos pariatur incidunt sint eligendi illo tempora cumque libero excepturi id porro. Est. "
+    }]
+}

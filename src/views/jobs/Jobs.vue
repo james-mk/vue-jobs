@@ -1,10 +1,18 @@
 <template>
   <h1>Jobs</h1>
-  <div v-for="job in jobs" :key="job.id" class="job">
-    <router-link :to="{ name: 'JobDetails', params: { id: job.id } }">
-      <h3>{{ job.id }} {{ job.title }}</h3>
-    </router-link>
-    <p>Location: {{ job.location }}</p>
+
+  <div v-if="jobs.length">
+    <ul>
+      <li v-for="job in jobs" :key="job.id" class="job">
+        <router-link :to="{ name: 'JobDetails', params: { id: job.id } }">
+          <h3>{{ job.id }}. {{ job.title }}</h3>
+        </router-link>
+        <p>Location: {{ job.location }}</p>
+      </li>
+    </ul>
+  </div>
+  <div v-else>
+    <p>Loading jobs......</p>
   </div>
 </template>
 
@@ -12,48 +20,37 @@
 export default {
   data() {
     return {
-      jobs: [
-        {
-          title: "Web Developer",
-          id: 1,
-          location: "Nairobi",
-          details: "lorem ipsum",
-        },
-        {
-          title: "Graphic Designer",
-          id: 2,
-          location: "Mombasa",
-          details: "lorem ipsum ",
-        },
-        {
-          title: "Videographer",
-          id: 3,
-          location: "Nakuru",
-          details: "lorem ipsum l",
-        },
-        {
-          title: "Social Media Manager",
-          id: 4,
-          location: "Eldoret",
-          details: "lorem ipsum ",
-        },
-      ],
+      jobs: [],
     };
+  },
+  mounted() {
+    fetch("http://localhost:3000/jobs")
+      .then((res) => res.json())
+      .then((data) => (this.jobs = data))
+      .catch((err) => console.log(err.message));
   },
 };
 </script>
 
 <style>
-.job h3 {
+li {
   background: #f4f4f4;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
   padding: 20px;
   border-radius: 10px;
   margin: 10px auto;
   max-width: 600px;
   cursor: pointer;
-  color: #444;
 }
-.job h3:hover {
+h3 {
+  color: #444;
+  /* color:  blueviolet; */
+}
+li:hover {
   background: #ddd;
 }
 .job a {
